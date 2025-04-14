@@ -1,0 +1,23 @@
+.form-outline{
+    width:100%
+}
+.scroll-vard {
+    scrollbar-width: auto;
+    scrollbar-color: #636363;
+}
+.scroll-vard::-webkit-scrollbar {
+    width: 1px;
+}
+.scroll-vard::-webkit-scrollbar-thumb {
+background-color: #636363;
+border-radius: 8px;
+}
+.form{
+    width:"100%"
+}
+
+@media only screen and (min-width:500px){
+    .form{
+        width:"50%"
+    }
+}
