@@ -56,7 +56,14 @@
   },
   "scripts": {
    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
-    "build": "react-scripts build",
+   {
+  "build": {
+   "env": {
+      "NODE_OPTIONS": "--openssl-legacy-provider"
+   }
+   },
+  "installCommand": "npm install --legacy-peer-deps"
+},
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
